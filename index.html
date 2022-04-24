@@ -4,7 +4,151 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="img/favicon-32x32.png" />
     <title>Into Section</title>
   </head>
-  <body></body>
+  <body>
+    <header id="site-header">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-1">
+            <div class="logo">
+              <a href="#">
+                <img src="img/logo.svg" alt="logo" />
+              </a>
+            </div>
+          </div>
+          <nav class="col-7">
+            <ul class="menu d-flex">
+              <li
+                class="menu-list-item d-flex align-items-center position-relative"
+              >
+                <a href="#" class="menu-link">Features</a>
+                <img src="img/icon-arrow-down.svg" alt="down arrow" />
+                <ul class="sub-menu">
+                  <li class="sub-menu-item">
+                    <img src="img/icon-todo.svg" alt="todo icon" />
+                    <a href="#" class="menu-link">Todo List</a>
+                  </li>
+                  <li class="sub-menu-item">
+                    <img src="img/icon-calendar.svg" alt="calendar icon" />
+                    <a href="#" class="menu-link">Calendar</a>
+                  </li>
+                  <li class="sub-menu-item">
+                    <img src="img/icon-reminders.svg" alt="reminders icon" />
+                    <a href="#" class="menu-link">Reminders</a>
+                  </li>
+                  <li class="sub-menu-item">
+                    <img src="img/icon-planning.svg" alt="planning icon" />
+                    <a href="#" class="menu-link">Planning</a>
+                  </li>
+                </ul>
+              </li>
+              <li
+                class="menu-list-item d-flex align-items-center position-relative"
+              >
+                <a href="#" class="menu-link">Company</a>
+                <img src="img/icon-arrow-down.svg" alt="down arrow" />
+                <ul class="sub-menu">
+                  <li class="sub-menu-item">
+                    <a href="#" class="menu-link">History</a>
+                  </li>
+                  <li class="sub-menu-item">
+                    <a href="#" class="menu-link">Our Team</a>
+                  </li>
+                  <li class="sub-menu-item">
+                    <a href="#" class="menu-link">Blog</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-list-item">
+                <a href="#" class="menu-link">Careers</a>
+              </li>
+              <li class="menu-list-item">
+                <a href="#" class="menu-link">About</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="col-4">
+            <div class="float-end d-none d-lg-block">
+              <a href="#" class="menu-link">Login</a>
+              <button type="button" class="menu-btn">Register</button>
+            </div>
+            <div class="hamburger float-end d-flex d-lg-none">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-xl-5 col-md-5 col-sm-12 offset-xl-1 order-2 order-md-1 d-flex flex-column"
+          >
+            <div
+              class="text-center text-md-start d-flex flex-column h-100 justify-content-center"
+            >
+              <div class="content-wrapper">
+                <h1 class="title">Make remote work</h1>
+                <p class="text">
+                  Get your team in sync, no matter your location. Streamline
+                  processes, create team rituals, and watch productivity soar.
+                </p>
+                <button type="button" class="primary-btn">Learn more</button>
+              </div>
+            </div>
+            <div class="logos">
+              <img src="img/client-databiz.svg" alt="databiz icon" />
+              <img src="img/client-audiophile.svg" alt="audiophile icon" />
+              <img src="img/client-meet.svg" alt="meet icon" />
+              <img src="img/client-maker.svg" alt="maker icon" />
+            </div>
+          </div>
+          <div
+            class="col-xl-5 col-md-6 col-sm-12 offset-xl-1 offset-lg-1 order-1 order-md-2 mb-5 mb-md-0"
+          >
+            <div class="image">
+              <img
+                src="img/image-hero-desktop.png"
+                alt=""
+                class="d-none d-md-inline-block"
+              />
+              <img
+                src="img/image-hero-mobile.png"
+                alt=""
+                class="d-inline-block d-md-none"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="js/index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
